@@ -2,6 +2,24 @@
 
 This repo contains the analysis code for the IMC 2024 paper [Sublet Your Subnet: Inferring IP Leasing in the Wild](https://www.caida.org/catalog/papers/2024_sublet_your_subnet/sublet_your_subnet.pdf).
 
+## Reference Format
+
+```
+@inproceedings{10.1145/3646547.3689010,
+  author = {Du, Ben and Fontugne, Romain and Testart, Cecilia and Snoeren, Alex C. and claffy, kc},
+  title = {Sublet Your Subnet: Inferring IP Leasing in the Wild},
+  year = {2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3646547.3689010},
+  doi = {10.1145/3646547.3689010},
+  booktitle = {Proceedings of the 2024 ACM Internet Measurement Conference},
+  numpages = {9},
+  location = {Madrid, Spain},
+  series = {IMC '24}
+}
+```
+
 ## Results from paper
 
 The 5 files named `leases_[RIR]_20240401.json.gz` contain the 47,318 inferred leased prefixes described in the paper. The prefixes were also annotated with RIR metadata and necesarry information to infer their lease (e.g. BGP origins as depicted in Figure 2 in the paper).
